@@ -54,14 +54,14 @@ form.onsubmit = ev => {
       break;
   }
 
-  nama.innerText += inNama.value
-  hasil.innerText += nilai
-  label.innerText += l
+  nama.innerText = inNama.value
+  hasil.innerText = nilai
+  label.innerText = l
 
   if (nilai >= 63) {
-    ket.innerText += 'Lulus'
+    ket.innerText = 'Lulus'
   } else {
-    ket.innerText += 'Gagal'
+    ket.innerText = 'Gagal'
   }
 
   output.style.visibility = 'visible'
